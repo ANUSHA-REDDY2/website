@@ -1,0 +1,19 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Data types are classifications that specify which type of value a variable can hold in a programming language.
+There are 2 types of data types
+1)Primitive data type
+2)Non primitive data type
+
+PRIMITIVE DATA TYPE
+They are available by default and store single value
+ 
+-string(sequence of characters enclosed with double quotes ,single quotes, back ticks(``)
+-number (stores number data type like int,float,double,byte,short)
+-boolean(true/false)
+-undefined(any variable declared but not initialized) let a;
+-null (empty of obj)
+
+NON PRIMITIVE DATA TYPE
+They are user defined and store multiple values
+- Functions, arrays, objects
