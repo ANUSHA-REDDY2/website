@@ -1,19 +1,62 @@
 Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
 
+A Data Type defines the kind of value that can be stored  and what operations can be performed on that value in a programming language.
 Data types are classifications that specify which type of value a variable can hold in a programming language.
-There are 2 types of data types
-1)Primitive data type
-2)Non primitive data type
 
-PRIMITIVE DATA TYPE
-They are available by default and store single value
- 
--string(sequence of characters enclosed with double quotes ,single quotes, back ticks(``)
--number (stores number data type like int,float,double,byte,short)
--boolean(true/false)
--undefined(any variable declared but not initialized) let a;
--null (empty of obj)
+Types of Data Types:
+1. Primitive Data Types
+2. Non-Primitive Data Types
 
-NON PRIMITIVE DATA TYPE
-They are user defined and store multiple values
-- Functions, arrays, objects
+1)Primitive Data Types:
+Primitive data types are basic types provided by the language. They store a single value directly in memory. These are simple and built-in.
+
+Examples of primitive data types:
+
+- String: Stores a sequence of characters. Can be enclosed in single quotes ('text'), double quotes ("text"), or backticks (`text`).  
+  Example:  
+  let name = "John";
+  
+  
+- Number: Stores numeric values. This can be an int,float,double,byte,short
+  Example:  
+  let age = 25; 
+  let pi = 3.14;  
+  
+
+- Boolean: Stores true or false values, often used in conditions.
+  Example:  
+  let a = true; 
+  
+
+- Undefined: A variable that is declared but not given any value is undefined.
+  Example:  
+  let x;  // x is undefined because it has no value yet
+  
+
+- Null: Represents the intentional absence of any value or an empty object reference.
+  Example:  
+  let b= null;   
+
+
+2) Non-Primitive Data Types:
+Non-primitive (or reference) data types are more complex and can store multiple values. They are created by the user and can store collections of values or more complex data.
+
+Examples of non-primitive data types:
+- Array: Stores a collection of values (which can be of any type) in a single variable.  
+  Example:  
+  let fruits = ["apple", "banana", "cherry"];  
+  
+
+- Object: Stores a collection of properties, where each property has a key and a value. Objects can represent real-world entities or complex data structures.
+  Example:  
+  let car = {
+      make: "Toyota",
+      model: "Corolla",
+      year: 2020
+  };   
+
+- *Function*: Functions are reusable blocks of code that perform specific tasks. They are also considered non-primitive types because they can be passed as values.
+  Example:  
+  function greet() {
+      return "Hello!";
+  }  

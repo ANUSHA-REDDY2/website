@@ -6,7 +6,6 @@ num = true;
 console.log(num);
 
 const dob= 1990;
-dob = 2000;
 console.log(dob);
 
 var a =10;
@@ -17,7 +16,7 @@ let b= 20;
 console.log(b);
 
 
-const c= True;
+const c= true;
 console.log(c);
 
 
@@ -33,7 +32,7 @@ console.log(c);
  console.log(str3);
  console.log(typeof(str3));
 
- let numm = 10.345678;
+ let numm = 1234.45;
  console.log(numm , typeof(numm));
 
  let bool = true;
